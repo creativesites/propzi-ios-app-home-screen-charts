@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8458058A2589A968006EF411 /* propzi_ios_app_home_screen_chartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845805892589A968006EF411 /* propzi_ios_app_home_screen_chartsApp.swift */; };
+		8458058C2589A968006EF411 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458058B2589A968006EF411 /* ContentView.swift */; };
+		8458058E2589A96C006EF411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8458058D2589A96C006EF411 /* Assets.xcassets */; };
+		845805912589A96C006EF411 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845805902589A96C006EF411 /* Preview Assets.xcassets */; };
+		8458059C2589A96D006EF411 /* propzi_ios_app_home_screen_chartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8458059B2589A96D006EF411 /* propzi_ios_app_home_screen_chartsTests.swift */; };
+		845805A72589A96D006EF411 /* propzi_ios_app_home_screen_chartsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845805A62589A96D006EF411 /* propzi_ios_app_home_screen_chartsUITests.swift */; };
+		845805BF2589AD2F006EF411 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 845805BE2589AD2F006EF411 /* SwiftUICharts */; };
+		845805C42589AED5006EF411 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845805C32589AED5006EF411 /* HeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		845805982589A96D006EF411 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8458057E2589A968006EF411 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845805852589A968006EF411;
+			remoteInfo = "propzi-ios-app-home-screen-charts";
+		};
+		845805A32589A96D006EF411 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8458057E2589A968006EF411 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845805852589A968006EF411;
+			remoteInfo = "propzi-ios-app-home-screen-charts";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		845805862589A968006EF411 /* propzi-ios-app-home-screen-charts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "propzi-ios-app-home-screen-charts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845805892589A968006EF411 /* propzi_ios_app_home_screen_chartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = propzi_ios_app_home_screen_chartsApp.swift; sourceTree = "<group>"; };
+		8458058B2589A968006EF411 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8458058D2589A96C006EF411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845805902589A96C006EF411 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		845805922589A96C006EF411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845805972589A96D006EF411 /* propzi-ios-app-home-screen-chartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "propzi-ios-app-home-screen-chartsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8458059B2589A96D006EF411 /* propzi_ios_app_home_screen_chartsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = propzi_ios_app_home_screen_chartsTests.swift; sourceTree = "<group>"; };
+		8458059D2589A96D006EF411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845805A22589A96D006EF411 /* propzi-ios-app-home-screen-chartsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "propzi-ios-app-home-screen-chartsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845805A62589A96D006EF411 /* propzi_ios_app_home_screen_chartsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = propzi_ios_app_home_screen_chartsUITests.swift; sourceTree = "<group>"; };
+		845805A82589A96D006EF411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845805C32589AED5006EF411 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845805832589A968006EF411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845805BF2589AD2F006EF411 /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845805942589A96D006EF411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8458059F2589A96D006EF411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8458057D2589A968006EF411 = {
+			isa = PBXGroup;
+			children = (
+				845805882589A968006EF411 /* propzi-ios-app-home-screen-charts */,
+				8458059A2589A96D006EF411 /* propzi-ios-app-home-screen-chartsTests */,
+				845805A52589A96D006EF411 /* propzi-ios-app-home-screen-chartsUITests */,
+				845805872589A968006EF411 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845805872589A968006EF411 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845805862589A968006EF411 /* propzi-ios-app-home-screen-charts.app */,
+				845805972589A96D006EF411 /* propzi-ios-app-home-screen-chartsTests.xctest */,
+				845805A22589A96D006EF411 /* propzi-ios-app-home-screen-chartsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845805882589A968006EF411 /* propzi-ios-app-home-screen-charts */ = {
+			isa = PBXGroup;
+			children = (
+				845805892589A968006EF411 /* propzi_ios_app_home_screen_chartsApp.swift */,
+				8458058B2589A968006EF411 /* ContentView.swift */,
+				845805C32589AED5006EF411 /* HeaderView.swift */,
+				8458058D2589A96C006EF411 /* Assets.xcassets */,
+				845805922589A96C006EF411 /* Info.plist */,
+				8458058F2589A96C006EF411 /* Preview Content */,
+			);
+			path = "propzi-ios-app-home-screen-charts";
+			sourceTree = "<group>";
+		};
+		8458058F2589A96C006EF411 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				845805902589A96C006EF411 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8458059A2589A96D006EF411 /* propzi-ios-app-home-screen-chartsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8458059B2589A96D006EF411 /* propzi_ios_app_home_screen_chartsTests.swift */,
+				8458059D2589A96D006EF411 /* Info.plist */,
+			);
+			path = "propzi-ios-app-home-screen-chartsTests";
+			sourceTree = "<group>";
+		};
+		845805A52589A96D006EF411 /* propzi-ios-app-home-screen-chartsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				845805A62589A96D006EF411 /* propzi_ios_app_home_screen_chartsUITests.swift */,
+				845805A82589A96D006EF411 /* Info.plist */,
+			);
+			path = "propzi-ios-app-home-screen-chartsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845805852589A968006EF411 /* propzi-ios-app-home-screen-charts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845805AB2589A96D006EF411 /* Build configuration list for PBXNativeTarget "propzi-ios-app-home-screen-charts" */;
+			buildPhases = (
+				845805822589A968006EF411 /* Sources */,
+				845805832589A968006EF411 /* Frameworks */,
+				845805842589A968006EF411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "propzi-ios-app-home-screen-charts";
+			packageProductDependencies = (
+				845805BE2589AD2F006EF411 /* SwiftUICharts */,
+			);
+			productName = "propzi-ios-app-home-screen-charts";
+			productReference = 845805862589A968006EF411 /* propzi-ios-app-home-screen-charts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		845805962589A96D006EF411 /* propzi-ios-app-home-screen-chartsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845805AE2589A96D006EF411 /* Build configuration list for PBXNativeTarget "propzi-ios-app-home-screen-chartsTests" */;
+			buildPhases = (
+				845805932589A96D006EF411 /* Sources */,
+				845805942589A96D006EF411 /* Frameworks */,
+				845805952589A96D006EF411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845805992589A96D006EF411 /* PBXTargetDependency */,
+			);
+			name = "propzi-ios-app-home-screen-chartsTests";
+			productName = "propzi-ios-app-home-screen-chartsTests";
+			productReference = 845805972589A96D006EF411 /* propzi-ios-app-home-screen-chartsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		845805A12589A96D006EF411 /* propzi-ios-app-home-screen-chartsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845805B12589A96D006EF411 /* Build configuration list for PBXNativeTarget "propzi-ios-app-home-screen-chartsUITests" */;
+			buildPhases = (
+				8458059E2589A96D006EF411 /* Sources */,
+				8458059F2589A96D006EF411 /* Frameworks */,
+				845805A02589A96D006EF411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845805A42589A96D006EF411 /* PBXTargetDependency */,
+			);
+			name = "propzi-ios-app-home-screen-chartsUITests";
+			productName = "propzi-ios-app-home-screen-chartsUITests";
+			productReference = 845805A22589A96D006EF411 /* propzi-ios-app-home-screen-chartsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8458057E2589A968006EF411 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					845805852589A968006EF411 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					845805962589A96D006EF411 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 845805852589A968006EF411;
+					};
+					845805A12589A96D006EF411 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 845805852589A968006EF411;
+					};
+				};
+			};
+			buildConfigurationList = 845805812589A968006EF411 /* Build configuration list for PBXProject "propzi-ios-app-home-screen-charts" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8458057D2589A968006EF411;
+			packageReferences = (
+				845805BD2589AD2F006EF411 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
+			productRefGroup = 845805872589A968006EF411 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845805852589A968006EF411 /* propzi-ios-app-home-screen-charts */,
+				845805962589A96D006EF411 /* propzi-ios-app-home-screen-chartsTests */,
+				845805A12589A96D006EF411 /* propzi-ios-app-home-screen-chartsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845805842589A968006EF411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845805912589A96C006EF411 /* Preview Assets.xcassets in Resources */,
+				8458058E2589A96C006EF411 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845805952589A96D006EF411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845805A02589A96D006EF411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845805822589A968006EF411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8458058C2589A968006EF411 /* ContentView.swift in Sources */,
+				845805C42589AED5006EF411 /* HeaderView.swift in Sources */,
+				8458058A2589A968006EF411 /* propzi_ios_app_home_screen_chartsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845805932589A96D006EF411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8458059C2589A96D006EF411 /* propzi_ios_app_home_screen_chartsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8458059E2589A96D006EF411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845805A72589A96D006EF411 /* propzi_ios_app_home_screen_chartsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		845805992589A96D006EF411 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845805852589A968006EF411 /* propzi-ios-app-home-screen-charts */;
+			targetProxy = 845805982589A96D006EF411 /* PBXContainerItemProxy */;
+		};
+		845805A42589A96D006EF411 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845805852589A968006EF411 /* propzi-ios-app-home-screen-charts */;
+			targetProxy = 845805A32589A96D006EF411 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		845805A92589A96D006EF411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		845805AA2589A96D006EF411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845805AC2589A96D006EF411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"propzi-ios-app-home-screen-charts/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "propzi-ios-app-home-screen-charts/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "propzi.propzi-ios-app-home-screen-charts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845805AD2589A96D006EF411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"propzi-ios-app-home-screen-charts/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "propzi-ios-app-home-screen-charts/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "propzi.propzi-ios-app-home-screen-charts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		845805AF2589A96D006EF411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "propzi-ios-app-home-screen-chartsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "propzi.propzi-ios-app-home-screen-chartsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/propzi-ios-app-home-screen-charts.app/propzi-ios-app-home-screen-charts";
+			};
+			name = Debug;
+		};
+		845805B02589A96D006EF411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "propzi-ios-app-home-screen-chartsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "propzi.propzi-ios-app-home-screen-chartsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/propzi-ios-app-home-screen-charts.app/propzi-ios-app-home-screen-charts";
+			};
+			name = Release;
+		};
+		845805B22589A96D006EF411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "propzi-ios-app-home-screen-chartsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "propzi.propzi-ios-app-home-screen-chartsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "propzi-ios-app-home-screen-charts";
+			};
+			name = Debug;
+		};
+		845805B32589A96D006EF411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "propzi-ios-app-home-screen-chartsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "propzi.propzi-ios-app-home-screen-chartsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "propzi-ios-app-home-screen-charts";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845805812589A968006EF411 /* Build configuration list for PBXProject "propzi-ios-app-home-screen-charts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845805A92589A96D006EF411 /* Debug */,
+				845805AA2589A96D006EF411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845805AB2589A96D006EF411 /* Build configuration list for PBXNativeTarget "propzi-ios-app-home-screen-charts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845805AC2589A96D006EF411 /* Debug */,
+				845805AD2589A96D006EF411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845805AE2589A96D006EF411 /* Build configuration list for PBXNativeTarget "propzi-ios-app-home-screen-chartsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845805AF2589A96D006EF411 /* Debug */,
+				845805B02589A96D006EF411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845805B12589A96D006EF411 /* Build configuration list for PBXNativeTarget "propzi-ios-app-home-screen-chartsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845805B22589A96D006EF411 /* Debug */,
+				845805B32589A96D006EF411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		845805BD2589AD2F006EF411 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView.git";
+			requirement = {
+				kind = exactVersion;
+				version = "2.0.0-beta.1";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		845805BE2589AD2F006EF411 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 845805BD2589AD2F006EF411 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8458057E2589A968006EF411 /* Project object */;
+}
